@@ -1,0 +1,28 @@
+{
+  "name": "quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isabelhurley/hugo-git-hook.git"
+  },
+  "author": "Isabel Hurley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isabelhurley/hugo-git-hook/issues"
+  },
+  "homepage": "https://github.com/isabelhurley/hugo-git-hook#readme",
+  "devDependencies": {
+    "git-scripts": "^0.2.1",
+    "surge": "^0.20.1"
+  },
+"git": {
+  "scripts": {
+    "pre-push": "./deploy.sh"
+  }
+}
+}
