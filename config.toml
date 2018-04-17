@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://hugo-isabel.surge.sh/"
 languageCode = "en-us"
 theme = "ananke"
 title = "Isabel's First Hugo Site"
